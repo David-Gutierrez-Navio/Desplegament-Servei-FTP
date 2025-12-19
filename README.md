@@ -9,6 +9,7 @@ Aquest projecte desplega un servidor FTP utilitzant Docker i vsftpd. El servei p
 - Connexió a Internet
 
 ## Estructura del projecte
+```text
 ftp-project/
 ├── config/
 │   └── vsftpd.conf
@@ -18,6 +19,7 @@ ftp-project/
 ├── logs/
 ├── Dockerfile
 └── docker-compose.yml
+```
 
 ## Desplegament del servei
 
