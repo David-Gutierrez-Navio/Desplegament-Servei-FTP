@@ -54,7 +54,7 @@ docker ps
 - Host: 127.0.0.1
 - Port: 21
 - Usuari: empleat1
-- Contrasenya: Emp2024!
+- Contrasenya: ********
 
 ## Aturar el servei
 
