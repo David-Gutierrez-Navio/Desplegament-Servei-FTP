@@ -30,15 +30,21 @@ cd ftp-project
 
 **Construeix la imatge Docker amb el servidor FTP**
 
-`docker-compose build`
+```text
+docker-compose build
+```
 
 **Inicia el servei FTP en segon pla**
 
-`docker-compose up -d`
+```text
+docker-compose up -d
+```
 
 **Comprova que el contenidor està en execució i actiu**
 
-`docker ps`
+```text
+docker ps
+```
 
 ## Accés al servidor FTP
 
@@ -54,7 +60,9 @@ cd ftp-project
 
 **Atura i elimina el contenidor FTP**
 
-`docker-compose down`
+```text
+docker-compose down
+```
 
 ## Notes finals
 - L'accés anònim només permet la descàrrega de fitxers.
